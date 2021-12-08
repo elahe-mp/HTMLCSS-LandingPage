@@ -198,14 +198,17 @@ font-size: 18px;
 }
 .full-banner {
     padding: 0 15px;
-    margin: 50px 0;
+    margin: 50px 0px;
     position: relative;
 }
 .full-banner:before {
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
-    margin: 30px 30px 50px 50px;
+    top: 30px;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
     z-index: 1;
 }
 .full-banner-image {
@@ -223,11 +226,11 @@ font-size: 18px;
     color: #ffffff;
 }
 .full-banner-sidebar h4 {
-    size: 40px;
+    font-size: 40px;
     font-weight: 700;
     font-style: italic;
     color: #637f94;
-    height: 1;
+    line-height: 1;
 }
 .full-banner-sidebar h4:after {
     content: "";
